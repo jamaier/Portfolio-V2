@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ['./pages/**/*.tsx', './components/**/*.tsx'],
-  darkMode: false, // or 'media' or 'class'
+  content: ['./pages/**/*.tsx', './components/**/*.tsx'],
   theme: {
      fontFamily: {
         sans: ['ui-sans-serif', 'system-ui'],
