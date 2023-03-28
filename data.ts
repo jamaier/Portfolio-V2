@@ -6,6 +6,7 @@ import { Service, Skill } from './types'
 
 import { BsCircleFill } from 'react-icons/bs'
 
+
 export const services: Service[] = [
    {
       Icon: RiComputerLine,
@@ -23,13 +24,13 @@ export const services: Service[] = [
       Icon: AiOutlineApi,
       title: 'API Development',
       about:
-         'I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ',
+         'I can develop robust REST API using <b>.Net Entity </b>  & <b>Node API</b> ',
    },
    {
       Icon: MdDeveloperMode,
       title: 'Competitive Coder',
       about:
-         'a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ',
+         'a daily problem solver in <b>CodeWars</b>  and <b>Leet Code</b> ',
    },
    {
       Icon: AiOutlineAntDesign,
@@ -48,55 +49,62 @@ export const services: Service[] = [
 export const languages: Skill[] = [
    {
       Icon: BsCircleFill,
-      name: 'Python',
-      level: '45',
+      name: 'C#',
+      level: '65',
    },
    {
       Icon: BsCircleFill,
-      name: 'Java Script',
+      name: 'JavaScript',
       level: '60',
    },
    {
       Icon: BsCircleFill,
-      name: 'React Native',
-      level: '80',
+      name: 'TypeScript',
+      level: '60',
    },
    {
       Icon: BsCircleFill,
       name: 'React',
-      level: '70',
+      level: '50',
    },
    {
       Icon: BsCircleFill,
-      name: 'Django',
-      level: '80',
+      name: 'Tailwind CSS',
+      level: '65',
    },
-   {
-      Icon: BsCircleFill,
-      name: 'Bootstrap',
-      level: '80',
-   },
+
 ]
 
 export const tools: Skill[] = [
    {
       Icon: BsCircleFill,
-      name: 'Figma',
-      level: '85',
-   },
-   {
-      Icon: BsCircleFill,
-      name: 'Photoshop',
+      name: '.Net Core',
       level: '45',
    },
    {
       Icon: BsCircleFill,
-      name: 'Illustrator',
+      name: 'Node.js',
       level: '60',
    },
    {
       Icon: BsCircleFill,
-      name: 'Framer',
+      name: 'MySql',
       level: '45',
    },
+   {
+      Icon: BsCircleFill,
+      name: 'FireBase',
+      level: '40',
+   },
+   {
+      Icon: BsCircleFill,
+      name: 'MSTest',
+      level: '45',
+   },
+   {
+      Icon: BsCircleFill,
+      name: 'Jest',
+      level: '60',
+   },
+
 ]
