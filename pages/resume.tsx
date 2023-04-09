@@ -10,10 +10,10 @@ const Resume = () => {
                <h5 className='my-3 text-2xl font-bold'>Education</h5>
                <div className=''>
                   <h5 className='my-2 text-xl font-bold'>
-                     Computer Science Engineering
+                     Web Development
                   </h5>
                   <p className='font-semibold'>
-                     Academy of Technology (2017-2021)
+                     Epicodus (2023)
                   </p>
                   <p className='my-3'>
                      I am currently pursuing a Full Stack Web Development course.
@@ -44,7 +44,7 @@ const Resume = () => {
             </div>
 
             <div>
-               <h5 className='my-3 text-2xl font-bold'>Frameworks & Databases</h5>
+               <h5 className='my-3 text-2xl font-bold'>Frameworks & Testing</h5>
                <div className='my-2'>
                   {tools.map((tool, i) => (
                      <Bar value={tool} key={i} />
@@ -56,4 +56,4 @@ const Resume = () => {
    )
 }
 
-export default Resume 
+export default Resume

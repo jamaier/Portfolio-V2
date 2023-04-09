@@ -2,8 +2,7 @@ import { RiComputerLine } from 'react-icons/ri'
 import { FaServer } from 'react-icons/fa'
 import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai'
 import { MdDeveloperMode } from 'react-icons/md'
-import { Service, Skill } from './types'
-
+import { Service, Skill, IProject } from './types'
 import { BsCircleFill } from 'react-icons/bs'
 
 
@@ -12,13 +11,13 @@ export const services: Service[] = [
       Icon: RiComputerLine,
       title: 'Frontend Development',
       about:
-         'I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ',
+         'I can build scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ',
    },
    {
       Icon: FaServer,
       title: 'Backend  Development',
       about:
-         'handle database, server, api using <b>Express </b> & other popular frameworks',
+         'handle database, server, api using <b>Entity Framework Core </b> & other popular frameworks',
    },
    {
       Icon: AiOutlineApi,
@@ -36,7 +35,7 @@ export const services: Service[] = [
       Icon: AiOutlineAntDesign,
       title: 'UI/UX designer',
       about:
-         'stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ',
+         'lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.',
    },
    {
       Icon: RiComputerLine,
@@ -79,11 +78,16 @@ export const tools: Skill[] = [
    {
       Icon: BsCircleFill,
       name: '.Net Core',
-      level: '45',
+      level: '85',
    },
    {
       Icon: BsCircleFill,
       name: 'Node.js',
+      level: '60',
+   },
+   {
+      Icon: BsCircleFill,
+      name: 'ThreeJS',
       level: '60',
    },
    {
@@ -93,18 +97,25 @@ export const tools: Skill[] = [
    },
    {
       Icon: BsCircleFill,
-      name: 'FireBase',
-      level: '40',
-   },
-   {
-      Icon: BsCircleFill,
       name: 'MSTest',
       level: '45',
    },
+   // {
+   //    Icon: BsCircleFill,
+   //    name: 'Jest',
+   //    level: '65',
+   // }
+]
+
+export const projects: IProject[] = [
    {
-      Icon: BsCircleFill,
-      name: 'Jest',
-      level: '60',
+      name: 'Project Name',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      image_path: '/images/project.jpg',
+      deployed_url: 'https://google.com',
+      github_url: 'https://github.com/jamaier/the-event-handlers',
+      category: ['react'],
+      key_techs: ['JavaScript', 'node', 'webpack'],
    },
 
 ]
