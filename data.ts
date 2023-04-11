@@ -109,13 +109,30 @@ export const tools: Skill[] = [
 
 export const projects: IProject[] = [
    {
-      name: 'Project Name',
+      name: 'ThreeJS Animation',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-      image_path: '/images/project.jpg',
-      deployed_url: 'https://google.com',
+      image_path: '/images/threejs.png',
+      deployed_url: 'https://jamaier.github.io/SpaceJelly/',
+      github_url: 'https://github.com/jamaier/SpaceJelly',
+      category: ['javascript'],
+      key_techs: ['JavaScript', 'ThreeJS', 'node', 'webpack'],
+   },
+   {
+      name: 'Space VSCode Star Fighter',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      image_path: '/images/eventHandlers.png',
+      deployed_url: 'https://mgantz22.github.io/the-event-handlers/',
       github_url: 'https://github.com/jamaier/the-event-handlers',
-      category: ['react'],
+      category: ['javascript'],
       key_techs: ['JavaScript', 'node', 'webpack'],
    },
-
+   {
+      name: 'Pierre\'s Sweet and Savory Treats',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      image_path: '/images/sweetsandtreats.png',
+      deployed_url: 'https://mgantz22.github.io/the-event-handlers/',
+      github_url: 'https://github.com/jamaier/the-event-handlers',
+      category: ['csharp'],
+      key_techs: ['C#', '.NET', 'SQL'],
+   },
 ]

@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import { IconType } from "react-icons";
+
 export interface Service {
   Icon: IconType;
   title: string;
@@ -22,4 +23,4 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "react" | "javascript" | "csharp" | "dotnet";
+export type Category = "react" | "javascript" | "csharp" | "dotnet" | "node" | "threejs" | "tailwindcss" | "typescript";
