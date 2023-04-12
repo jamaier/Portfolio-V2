@@ -109,6 +109,7 @@ export const tools: Skill[] = [
 
 export const projects: IProject[] = [
    {
+      id: 0,
       name: 'ThreeJS Animation',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
       image_path: '/images/threejs.png',
@@ -118,6 +119,7 @@ export const projects: IProject[] = [
       key_techs: ['JavaScript', 'ThreeJS', 'node', 'webpack'],
    },
    {
+      id: 1,
       name: 'Space VSCode Star Fighter',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
       image_path: '/images/eventHandlers.png',
@@ -127,6 +129,7 @@ export const projects: IProject[] = [
       key_techs: ['JavaScript', 'node', 'webpack'],
    },
    {
+      id: 2,
       name: 'Pierre\'s Sweet and Savory Treats',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
       image_path: '/images/sweetsandtreats.png',
