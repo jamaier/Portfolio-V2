@@ -11,13 +11,13 @@ export const services: Service[] = [
       Icon: RiComputerLine,
       title: 'Frontend Development',
       about:
-         'I can build scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ',
+         'I can build scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js/Next.js</b> ',
    },
    {
       Icon: FaServer,
-      title: 'Backend  Development',
+      title: 'Backend Development',
       about:
-         'handle database, server, api using <b>Entity Framework Core </b> & other popular frameworks',
+         "handle database, server and api's using <b>Entity Framework Core </b> & other popular frameworks",
    },
    {
       Icon: AiOutlineApi,
@@ -29,13 +29,13 @@ export const services: Service[] = [
       Icon: MdDeveloperMode,
       title: 'Competitive Coder',
       about:
-         'a daily problem solver in <b>CodeWars</b>  and <b>Leet Code</b> ',
+         'Active problem solver on <b>CodeWars</b>  and <b>Leet Code</b> ',
    },
    {
       Icon: AiOutlineAntDesign,
       title: 'UI/UX designer',
       about:
-         'lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.',
+         'Growing experience with Figma',
    },
    {
       Icon: RiComputerLine,
@@ -48,30 +48,29 @@ export const services: Service[] = [
 export const languages: Skill[] = [
    {
       Icon: BsCircleFill,
+      name: 'React',
+      level: '75',
+   },
+   {
+      Icon: BsCircleFill,
       name: 'C#',
-      level: '65',
+      level: '78',
    },
    {
       Icon: BsCircleFill,
       name: 'JavaScript',
-      level: '60',
+      level: '75',
    },
    {
       Icon: BsCircleFill,
       name: 'TypeScript',
-      level: '60',
-   },
-   {
-      Icon: BsCircleFill,
-      name: 'React',
-      level: '50',
+      level: '70',
    },
    {
       Icon: BsCircleFill,
       name: 'Tailwind CSS',
-      level: '65',
+      level: '73',
    },
-
 ]
 
 export const tools: Skill[] = [
@@ -83,22 +82,22 @@ export const tools: Skill[] = [
    {
       Icon: BsCircleFill,
       name: 'Node.js',
-      level: '60',
+      level: '70',
    },
    {
       Icon: BsCircleFill,
       name: 'ThreeJS',
-      level: '60',
+      level: '55',
    },
    {
       Icon: BsCircleFill,
       name: 'MySql',
-      level: '45',
+      level: '75',
    },
    {
       Icon: BsCircleFill,
       name: 'MSTest',
-      level: '45',
+      level: '70',
    },
    // {
    //    Icon: BsCircleFill,
@@ -139,3 +138,5 @@ export const projects: IProject[] = [
       key_techs: ['C#', '.NET', 'SQL'],
    },
 ]
+
+
