@@ -99,11 +99,11 @@ export const tools: Skill[] = [
       name: 'MSTest',
       level: '70',
    },
-   // {
-   //    Icon: BsCircleFill,
-   //    name: 'Jest',
-   //    level: '65',
-   // }
+   {
+      Icon: BsCircleFill,
+      name: 'Jest',
+      level: '65',
+   }
 ]
 
 export const projects: IProject[] = [
