@@ -9,7 +9,7 @@ const ServiceCard: FunctionComponent<{ service: Service }> = ({
   };
 
   return (
-    <div className="flex items-center p-2 sapce-x-4">
+    <div className="flex items-center p-2 space-x-4">
       <Icon className="w-12 h-12 mx-3 text-green" />
       <div>
         <h6 className="font-bold">{title}</h6>
